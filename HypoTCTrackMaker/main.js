@@ -5,7 +5,7 @@ const WIDTH = 960;
 const HEIGHT = 540;
 const MAP_WIDTH = 3000;
 const MAP_HEIGHT = MAP_WIDTH/2;
-const COLORS = ['#5ebaff','#00faf4','#ffffcc','#ffe775','#ffc140','#ff8f20','#ff6060','#000000'];
+const COLORS = ['#5ebaff','#00faf4','#ffffcc','#ffe775','#ffc140','#ff8f20','#000000'];
 
 var loadedMapImg,
     mapImg,
@@ -248,8 +248,6 @@ function keyTyped(){
         categoryToPlace = 5;
     else if(key === '5')
         categoryToPlace = 6;
-    else if(key === '6')
-        categoryToPlace = 7;
     else if(key === 't')
         typeToPlace = 0;
     else if(key === 'b')
